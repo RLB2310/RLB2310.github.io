@@ -2,7 +2,7 @@ baseurl      = "localhost"
 title        = "Rylan's Tech Blog"
 theme        = "hugo-theme-techdoc"
 languageCode = "en-us"
-paginate     = 10
+paginate     = 12
 
 [params]
     # Documentation repository section
