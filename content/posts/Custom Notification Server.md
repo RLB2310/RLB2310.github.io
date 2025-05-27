@@ -1,7 +1,9 @@
 +++
-title = "Ntfy.sh"
+title = "Custom Notification Server"
 date = 2025-05-27
 +++
+
+# Ntfy.sh 
 
 
 ## Custom, Cross-platform, and simple
