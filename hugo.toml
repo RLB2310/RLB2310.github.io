@@ -2,7 +2,6 @@ baseurl      = "localhost"
 title        = "Rylan's Tech Blog"
 theme        = "hugo-theme-techdoc"
 languageCode = "en-us"
-paginate     = 12
 
 [params]
     menu_style = "open-menu"
