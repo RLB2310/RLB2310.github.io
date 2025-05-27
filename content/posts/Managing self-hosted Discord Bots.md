@@ -2,7 +2,7 @@
 title = 'Managing Self Hosted Discord Bots'
 date = 2024-06-28T09:48:06+10:00
 +++
-
+test
 # Discord Bots
 
 [Discord Bots](https://discord.com/blog/how-to-use-discord-apps) are an effective way to managing community servers through automation and interacting with API's. Realistically people aren't always available to moderate these things, so bots help.
