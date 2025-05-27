@@ -1,12 +1,8 @@
----
-title: "Ntfy.sh"
-build:
-  render: never
-  list: never
-  publishResources: false
----
++++
+title = "Ntfy.sh"
+date = 2025-05-27
++++
 
-t
 
 ## Custom, Cross-platform, and simple
 
