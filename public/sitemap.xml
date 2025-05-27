@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>localhost/</loc>
-    <lastmod>2024-11-18T16:26:52+11:00</lastmod>
+    <lastmod>2024-12-07T20:00:42+11:00</lastmod>
   </url><url>
     <loc>localhost/posts/</loc>
-    <lastmod>2024-11-18T16:26:52+11:00</lastmod>
+    <lastmod>2024-12-07T20:00:42+11:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/setting-up-a-nas/</loc>
+    <lastmod>2024-12-07T20:00:42+11:00</lastmod>
   </url><url>
     <loc>localhost/posts/setting-up-openwrt-on-a-rpi/</loc>
     <lastmod>2024-11-18T16:26:52+11:00</lastmod>
@@ -25,6 +28,8 @@
   </url><url>
     <loc>localhost/posts/raspberry-pi-as-a-server/</loc>
     <lastmod>2024-06-26T16:32:01+10:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/custom-notification-server/</loc>
   </url><url>
     <loc>localhost/categories/</loc>
   </url><url>

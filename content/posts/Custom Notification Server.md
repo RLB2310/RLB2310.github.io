@@ -1,4 +1,12 @@
-# Ntfy.sh
+---
+title: "Ntfy.sh"
+build:
+  render: never
+  list: never
+  publishResources: false
+---
+
+
 
 ## Custom, Cross-platform, and simple
 
@@ -9,6 +17,3 @@
 Whether it's a direct linux binary, a Docker container, or even an ArmV6 cpu install, Ntfy.sh has install options for everything, and the setup couldn't get more simple. I opted for the Docker install on my Arch linux server.
 
 ![text](/assets/Images/ntfy.png)
-
-
-
