@@ -749,7 +749,7 @@ main:only-child {
       -ms-flex-order: -1;
           order: -1;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 @media screen and (max-width: 480px) {
