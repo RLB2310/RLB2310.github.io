@@ -6,5 +6,4 @@ paginate     = 12
 
 [params]
     menu_style = "open-menu"
-    customCSS  = ["css/custom.css"]
 
