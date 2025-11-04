@@ -6,14 +6,21 @@
     <description>Recent content on Rylan&#39;s Tech Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Nov 2024 16:26:52 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 20:00:42 +1100</lastBuildDate>
     <atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up a NAS</title>
+      <link>localhost/posts/setting-up-a-nas/</link>
+      <pubDate>Sat, 07 Dec 2024 20:00:42 +1100</pubDate>
+      <guid>localhost/posts/setting-up-a-nas/</guid>
+      <description>&lt;h1 id=&#34;nas-and-self-hosted-server&#34;&gt;NAS and Self-hosted server&lt;/h1&gt;&#xA;&lt;p&gt;Moving on from the Raspberry Pi, I&amp;rsquo;ve decided it would be a good idea to expand on my homelab by investing in a low-powered PC, giving me more headroom to actually host my services (properly at that).&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-operating-system&#34;&gt;The Operating System&lt;/h2&gt;&#xA;&lt;p&gt;While NAS-specific operating systems exist, for use cases like mine, I&amp;rsquo;ve decided that it would be more interesting to implement the functions provided by those operating systems myself, in Arch Linux. It isn&amp;rsquo;t too difficult either. The main functions of a NAS can be achieved through services such as Samba and self-hosted cloud services like Nextcloud.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting Up OpenWRT on a RPI</title>
       <link>localhost/posts/setting-up-openwrt-on-a-rpi/</link>
       <pubDate>Mon, 18 Nov 2024 16:26:52 +1100</pubDate>
       <guid>localhost/posts/setting-up-openwrt-on-a-rpi/</guid>
-      <description>&lt;h1 id=&#34;raspberry-pi-as-a-router&#34;&gt;Raspberry Pi, as a router&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve decided that the Raspberry Pi 4 isn&amp;rsquo;t holding up as a NAS, Music server, Plex Serve, etc. (understandably), so i&amp;rsquo;m turning it into a router because why not? And i&amp;rsquo;d like to learn about VLAN&amp;rsquo;s and networking in general.&lt;/p&gt;&#xA;&lt;h2 id=&#34;firmware--os-choice&#34;&gt;Firmware / OS Choice&lt;/h2&gt;&#xA;&lt;p&gt;Unfortunately, the more popular custom router firmware, PFsense (or Opnsense, even) don&amp;rsquo;t support ARM architecture, so OpenWRT is the next choice.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;raspberry-pi-as-a-router&#34;&gt;Raspberry Pi, as a router&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve decided that the Raspberry Pi 4 isn&amp;rsquo;t holding up as a NAS, Music server, Plex host, etc. (understandably), so i&amp;rsquo;m turning it into a router because why not? And i&amp;rsquo;d like to learn about VLAN&amp;rsquo;s and networking in general.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;At the time of writing, I&amp;rsquo;ve actually shifted from the main function of being a router and moved towards a filter/firewall. The main reason for this is actully due to a security concern. Because the Pi only has one network port, and a VLAN is required, the switch&amp;rsquo;s interface is actually placed on all ports, leaving the WAN port with access to the management on the switch. So until I can actually look into the settings and set a management port on the switch, the Pi will only be used for simple DNS routing, firewall duties, and ad filtering. I&amp;rsquo;ve left som the steps I&amp;rsquo;ve taken nonetheless.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Power Management and Linux Laptops</title>
@@ -49,6 +56,13 @@
       <pubDate>Wed, 26 Jun 2024 16:32:01 +1000</pubDate>
       <guid>localhost/posts/raspberry-pi-as-a-server/</guid>
       <description>&lt;h1 id=&#34;setting-up-a-self-hosted-home-server&#34;&gt;Setting up a self-hosted home server&lt;/h1&gt;&#xA;&lt;p&gt;Why settle for something done poorly when you can do it better yourself? That&amp;rsquo;s the approach I took with creating a general, all-in-one media server / NAS. The main concern was relying on external, third-party software and services to conduct daily tech and media activities. The solution? Do it yourself. I&amp;rsquo;ve done exactly that, setting up a Raspberry Pi that I can tinker with and use daily, helping not only me but also my friends and family.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>localhost/posts/custom-notification-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>localhost/posts/custom-notification-server/</guid>
+      <description>&lt;h1 id=&#34;ntfysh&#34;&gt;Ntfy.sh&lt;/h1&gt;&#xA;&lt;h2 id=&#34;custom-cross-platform-and-simple&#34;&gt;Custom, Cross-platform, and simple&lt;/h2&gt;&#xA;&lt;p&gt;[Ntfy.sh|https://ntfy.sh/] is such a basic idea, but has so much use cases. Just think about all the manual checking you need to conduct on your server. Maybe you need to SSH just to check the network status. Or maybe your server has a power outage, and you don&amp;rsquo;t find out until you actually go to use it. These scenarios can be much less painful with a notification. Even better, imagine setting up a self-hosted notification server, where you can make a notfication for anything you want. That&amp;rsquo;s exactly what Ntfy.sh is made for.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
