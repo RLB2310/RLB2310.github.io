@@ -8,7 +8,7 @@ Rylan B
 **Github**
 https://github.com/RLB2310
 
-A simple webpage documenting my projects, ranging from selfhosting on my Raspberry Pi, to organising and customising my desktops and laptops.
+A simple webpage documenting my projects, ranging from selfhosting on my Raspberry Pi, and Server, to organising and customising my desktops and laptops.
 
 Some examples of what I've documented :
 
@@ -22,8 +22,9 @@ Some examples of what I've documented :
 
 - Safely and effectively configuring the network (without port-forwarding)
 
+- Virtualising with Proxmox
 
-The purpose of this webpage is to show the extra curricular work I complete and how I have learn't how to work with computer systems and networks.
+The purpose of this webpage is to show the extra curricular work I complete and how I have learnt to work with computer systems and networks.
 
 
 
